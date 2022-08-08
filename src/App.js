@@ -12,8 +12,9 @@ const GameWrapper = styled.main`
 `;
 
 function App() {
-  const buffer = new Buffer(8);
-  const matrixGenerator = new MatrixGenerator(8,5,5);
+  const bufferCapacity = 6;
+  const buffer = new Buffer(bufferCapacity);
+  const matrixGenerator = new MatrixGenerator(bufferCapacity,5,5);
   matrixGenerator.generate();
   const sequences = matrixGenerator.getSequences();
   const matrix = matrixGenerator.getMatrix();
