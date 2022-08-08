@@ -19,7 +19,7 @@ const Game = ({ game }) => {
 
   return (
     <HighlightedSymbolProvider>
-      <Grid spacing={1}>
+      <Grid direction='column' spacing={1}>
         <Matrix
           matrix={game.matrix}
           selectedIndex={game.selectedIndex}
