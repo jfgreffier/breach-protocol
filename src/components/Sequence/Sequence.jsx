@@ -6,7 +6,7 @@ import { Cell } from '../_shared';
 
 const StyledAside = styled.aside`
   min-height: 52px;
-  min-width: ${(props) => `calc(60px * ${props.size})`};
+  min-width: ${(props) => `calc(45px * ${props.size})`};
   background-color: ${(props) => `${props.color}`};
 `;
 

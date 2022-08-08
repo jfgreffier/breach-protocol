@@ -5,11 +5,11 @@ import styled from 'styled-components';
 const StyledCell = styled.span`
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 45px;
   padding: 2px;
   text-transform: uppercase;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   color: ${(props) => props.color};
   ${({ correct }) => correct && 'color: blue;'}
   background-color: ${(props) => props.backgroundColor};
