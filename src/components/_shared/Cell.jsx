@@ -56,7 +56,7 @@ const Cell = ({
     } else if (active) {
       return 'var(--active-background-color)';
     } else if (focused) {
-      return 'var(--primary-color-transparent)';
+      // return 'var(--primary-color-transparent)';
     }
 
     return 'initial';
