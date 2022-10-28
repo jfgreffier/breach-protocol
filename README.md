@@ -1,5 +1,7 @@
 # Cyberpunk Breach Protocol
 
+<img src="https://user-images.githubusercontent.com/12395973/198687491-8de5f844-1fb4-46c6-9f00-fda8fa2bb616.png" alt="QR code" width="500"/>
+
 ![Github Actions](https://github.com/acouvreur/breach-protocol/workflows/Build,%20test%20and%20deploy/badge.svg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
